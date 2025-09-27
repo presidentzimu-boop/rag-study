@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# Virtual env
+.venv/
+
+# Large/derived data
+exports/
+export_*.jsonl
+data/*
+!data/.keep
+
+# Editors
+.vscode/
+.idea/
